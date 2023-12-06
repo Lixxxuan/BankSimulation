@@ -10,9 +10,6 @@ namespace BankSimulation
     {
         private SemaphoreSlim semaphore; // 信号量，用于控制顾客的访问
         private Queue<int> queue; // 顾客队列，存储顾客的号码
-
-        reasonml
-        复制
         public Form1()
         {
             InitializeComponent();
